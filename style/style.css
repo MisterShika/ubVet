@@ -1,0 +1,96 @@
+/** Material Icons **/
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 24
+}
+
+/** Pseudo Tailwind Classes **/
+.h-auto{
+  height: auto;
+}
+.w-auto{
+  width: auto;
+}
+
+/** Elements **/
+.siteButton{
+  display: block;
+  margin: .5em 0;
+  font-family: "Raleway", sans-serif;
+  font-size: 2rem;
+  text-shadow: 0px 0px 4px rgba(0, 0, 0, 0.8);
+  line-height: 1;
+  background-color: #6FAAF2;
+  padding: .5em .75em;
+  border-radius: 10px;
+  transition: background-color 0.3s ease;
+  font-weight: bold;
+}
+.siteButton:hover{
+  background-color: #115bb6;
+}
+
+/** Fonts **/
+.bitterFont{
+  font-family: "Bitter", serif;
+  font-optical-sizing: auto;
+}
+.robotoCondensedFont{
+  font-family: "Roboto Condensed", sans-serif;
+  font-optical-sizing: auto;
+}
+.ralewayFont{
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+}
+
+/** Navigation **/
+.navList li{
+  padding: 0 20px;
+  font-family: "Roboto Condensed", sans-serif;
+  font-size: 1.5rem; /* 24px */
+  line-height: 2rem; /* 32px */
+}
+
+/** Hero Area **/
+.heroBlock{
+  background: url(img/homeBackground.jpg) center/cover;
+  min-height: 700px;
+}
+.heroBlock .interactiveBlock{
+  background-color: rgba(0, 0, 0, 0.4);
+}
+.interactiveBlock h1{
+  font-size: 5rem;
+  line-height: 1.25em;
+  font-weight: bold;
+  text-shadow: 0px 0px 4px rgba(0, 0, 0, 0.5);
+  text-align: center;
+}
+.interactiveBlock span{
+  max-width: 600px;
+  margin: 1em 0;
+  font-size: 1.75rem;
+  line-height: 1.5em;
+  text-align: center;
+  text-shadow: 0px 0px 4px rgba(0, 0, 0, 0.7);
+  font-weight: bold;
+}
+
+/** Responsive Fixes For Custom CSS **/
+
+
+
+
+.test1{
+  background-color: #828894;
+}
+.test2{
+  background-color: #DDCDC0;
+}
+.test3{
+  background-color: #95833B;
+}
