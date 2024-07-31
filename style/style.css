@@ -18,7 +18,7 @@
 /** Elements **/
 .siteButton{
   display: block;
-  margin: .5em 0;
+  margin: .5em auto;
   font-family: "Raleway", sans-serif;
   font-size: 2rem;
   text-shadow: 0px 0px 4px rgba(0, 0, 0, 0.8);
@@ -28,6 +28,7 @@
   border-radius: 10px;
   transition: background-color 0.3s ease;
   font-weight: bold;
+  color: #fff;
 }
 .siteButton:hover{
   background-color: #115bb6;
@@ -72,8 +73,6 @@ header a{
   background-color: rgba(0, 0, 0, 0.4);
 }
 .interactiveBlock h1{
-  font-size: 5rem;
-  line-height: 1.25em;
   font-weight: bold;
   text-shadow: 0px 0px 4px rgba(0, 0, 0, 0.5);
   text-align: center;
@@ -81,8 +80,6 @@ header a{
 .interactiveBlock span{
   max-width: 600px;
   margin: 1em 0;
-  font-size: 1.75rem;
-  line-height: 1.5em;
   text-align: center;
   text-shadow: 0px 0px 4px rgba(0, 0, 0, 0.7);
   font-weight: bold;
@@ -113,7 +110,7 @@ header a{
 }
 
 
-.test1{
+/* .test1{
   background-color: #828894;
 }
 .test2{
@@ -121,6 +118,6 @@ header a{
 }
 .test3{
   background-color: #95833B;
-}
+} */
 
 /** #6FAAF2 **/
