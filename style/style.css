@@ -92,7 +92,7 @@ header a{
 }
 .boxHolder>div>div{
   display: flex;
-  border: 1px solid;
+  border: 2px solid;
 }
 
 .boxHolder>div>div img{
@@ -109,6 +109,16 @@ header a{
   border-color: #95833B;
 }
 
+
+.contactArea input,
+.contactArea textarea{
+  border: 1px solid black;
+  border-radius: 10px;
+}
+
+footer{
+  border-top: 1px solid black;
+}
 
 /* .test1{
   background-color: #828894;
