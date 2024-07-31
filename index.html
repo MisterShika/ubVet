@@ -7,12 +7,16 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Bitter:ital,wght@0,100..900;1,100..900&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-    
+
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
     <link rel="stylesheet" href="style/reset.css">
     <link rel="stylesheet" href="style/style.css">
 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+
     <script src="https://cdn.tailwindcss.com"></script>
+    
     <script>
     //  tailwind.config = {
     //    theme: {
@@ -54,34 +58,32 @@
             <a href="#" class="siteButton">Click Me</a>
         </div>
     </div>
-    <main>
-        <div class="mainBlock flex">
-            <div class="mainContainer flex flex-col flex-1 px-6 py-7 test1">
-                <div class="imageContainer px-5">
-                    <img class="rounded-full" src="style/img/cow.jpg" alt="Horses" />
-                </div>
-                <div class="textContainer flex items-center flex-col bg-white p-3 mt-7 flex-1">
-                    <h3 class="text-center bitterFont text-5xl py-2">Cows</h3>
-                    <span class="ralewayFont">Nulla vitae mattis purus, non luctus nunc. Nulla vulputate massa nec leo commodo tempus. Nulla varius placerat luctus. Proin vel ultricies ante. Vestibulum nec quam ut risus posuere commodo sit amet id turpis. Quisque tincidunt urna eu odio venenatis maximus. Phasellus ut libero ut lacus imperdiet bibendum.</span>
-                </div>
+    <main class="boxHolder bg-slate-200 p-8">
+        <div class="box1 bg-slate-100 my-8 p-8 rounded-3xl w-3/4">
+            <span>
+                <img src="style/img/horse.png" alt="" />
+            </span>
+            <div class="py-0 px-6">
+                <h2 class="bitterFont text-5xl">Lorem Ipsum Dolor</h2>
+                <div class="ralewayFont py-3 leading-8">Nulla vitae mattis purus, non luctus nunc. Nulla vulputate massa nec leo commodo tempus. Nulla varius placerat luctus. Proin vel ultricies ante. Vestibulum nec quam ut risus posuere commodo sit amet id turpis. Quisque tincidunt urna eu odio venenatis maximus. Phasellus ut libero ut lacus imperdiet bibendum.</div>
             </div>
-            <div class="mainContainer flex flex-col flex-1 px-6 py-7 test2">
-                <div class="imageContainer px-5">
-                    <img class="rounded-full" src="style/img/horse.jpg" alt="Horses" />
-                </div>
-                <div class="textContainer flex items-center flex-col bg-white p-3 mt-7 flex-1">
-                    <h3 class="text-center bitterFont text-5xl py-2">Horses</h3>
-                    <span class="ralewayFont">Donec laoreet urna eu lectus interdum sodales. Sed volutpat viverra nunc a condimentum. Nam cursus eleifend eros, mollis hendrerit quam sagittis nec. Suspendisse aliquet sed orci non aliquam. Sed tempor est massa, vitae mattis mauris scelerisque vel. Fusce sollicitudin rutrum orci, sed faucibus nisi laoreet eget.</span>
-                </div>
+        </div>
+        <div class="box2 bg-slate-100 my-8 p-8 rounded-3xl w-3/4">
+            <span>
+                <img src="style/img/dogandcat.png" alt="" />
+            </span>
+            <div class="py-0 px-6">
+                <h2 class="bitterFont text-5xl">Donec Ultrices Magna</h2>
+                <div class="ralewayFont py-3 leading-8">Donec laoreet urna eu lectus interdum sodales. Sed volutpat viverra nunc a condimentum. Nam cursus eleifend eros, mollis hendrerit quam sagittis nec. Suspendisse aliquet sed orci non aliquam. Sed tempor est massa, vitae mattis mauris scelerisque vel. Fusce sollicitudin rutrum orci, sed faucibus nisi laoreet eget.</div>
             </div>
-            <div class="mainContainer flex flex-col flex-1 px-6 py-7 test3">
-                <div class="imageContainer px-5">
-                    <img class="rounded-full" src="style/img/pets.jpg" alt="Horses" />
-                </div>
-                <div class="textContainer flex items-center flex-col bg-white p-3 mt-7 flex-1">
-                    <h3 class="text-center bitterFont text-5xl py-2">Pets</h3>
-                    <span class="ralewayFont">Donec ut congue metus. Donec at justo non ligula hendrerit bibendum eget vel nunc. Praesent elementum magna quis augue hendrerit, vitae sollicitudin urna tempor. Ut vitae dictum metus. Morbi vitae rhoncus sem, quis fringilla massa. Nullam quis sodales urna, ut pellentesque leo.</span>
-                </div>
+        </div>
+        <div data-aos="fade-up" class="box3 bg-slate-100 my-8 p-8 rounded-3xl w-3/4 animate__animated animate__fadeInUp">
+            <span>
+                <img src="style/img/cow.png" alt="" />
+            </span>
+            <div class="py-0 px-6">
+                <h2 class="bitterFont text-5xl">Aenean Ultrices Tellus</h2>
+                <div class="ralewayFont py-3 leading-8">Donec ut congue metus. Donec at justo non ligula hendrerit bibendum eget vel nunc. Praesent elementum magna quis augue hendrerit, vitae sollicitudin urna tempor. Ut vitae dictum metus. Morbi vitae rhoncus sem, quis fringilla massa. Nullam quis sodales urna, ut pellentesque leo.</div>
             </div>
         </div>
     </main>
@@ -93,7 +95,7 @@
             <iframe class="w-full" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5971.111512108615!2d-90.56264999483756!3d41.557215089504794!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x87e234539e62ec7d%3A0xd484bef7c96ebe5e!2sStarbucks!5e0!3m2!1sen!2sjp!4v1713170586538!5m2!1sen!2sjp" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
         </div>
     </div>
-    <footer>
+    <footer class="">
         <nav>
             <ul class="">
                 <li><a href="#">About Us</a></li>
@@ -107,5 +109,9 @@
             &copy;2024 Unbridled Vet
         </div>
     </footer>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
 </html>

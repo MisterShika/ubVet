@@ -55,6 +55,14 @@
   line-height: 2rem; /* 32px */
 }
 
+/** Header Modification **/
+header{
+  border-bottom: 1px solid #011828;
+}
+header a{
+  color: #011828;
+}
+
 /** Hero Area **/
 .heroBlock{
   background: url(img/homeBackground.jpg) center/cover;
@@ -82,7 +90,30 @@
 
 /** Responsive Fixes For Custom CSS **/
 
-
+.boxHolder>div{
+  display: flex;
+  border: 1px solid;
+  width: 75%;
+}
+.boxHolder>div>span{
+  flex: 1 1 25%;
+}
+.boxHolder>div>div{
+  flex: 1 1 75%;
+}
+.boxHolder>div img{
+  width: 100%;
+  height: auto;
+}
+.boxHolder .box1{
+  border-color: #828894;
+}
+.boxHolder .box2{
+  border-color: #6FAAF2;
+}
+.boxHolder .box3{
+  border-color: #95833B;
+}
 
 
 .test1{
@@ -94,3 +125,5 @@
 .test3{
   background-color: #95833B;
 }
+
+/** #6FAAF2 **/
