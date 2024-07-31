@@ -90,18 +90,15 @@ header a{
 
 /** Responsive Fixes For Custom CSS **/
 
-.boxHolder>div{
-  display: flex;
-  border: 1px solid;
-  width: 75%;
-}
-.boxHolder>div>span{
-  flex: 1 1 25%;
+.boxHolder .row:nth-child(even){
+  justify-content: flex-end;
 }
 .boxHolder>div>div{
-  flex: 1 1 75%;
+  display: flex;
+  border: 1px solid;
 }
-.boxHolder>div img{
+
+.boxHolder>div>div img{
   width: 100%;
   height: auto;
 }
